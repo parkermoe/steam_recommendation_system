@@ -26,9 +26,6 @@ The project focuses on:
 - **Model Evaluation**: Several metrics, including Precision@K and Recall@K, are used to evaluate the model's performance.
 - **Scalability**: The model is designed to handle large datasets efficiently, making it suitable for real-world applications.
 
-Certainly, let's add a section to discuss the dataset in detail:
-
----
 
 ## Dataset Overview
 
@@ -68,13 +65,12 @@ Here's an example of a bundle data point:
       "item_url": "http://store.steampowered.com/app/38700",
       "item_name": "Toki Tori"
     },
-    // More items
   ],
   "bundle_discount": "10%"
 }
 ```
 
-### Data Source and Citations
+#### Data Source and Citations
 
 
 - Self-attentive sequential recommendation, ICDM, 2018 [PDF](#)
