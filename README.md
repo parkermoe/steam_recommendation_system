@@ -8,8 +8,8 @@ This project aims to build a personalized game recommendation system for Steam u
 - [Project Description](#project-description)
 - [Data Preparation](#data-preparation)
 - [Model Architecture](#model-architecture)
-- [Evaluation Metrics](#evaluation-metrics)
 - [Results](#results)
+- [Evaluation Metrics](#evaluation-metrics)
 - [Future Work](#future-work)
 - [Sources](#sources)
 
@@ -97,19 +97,37 @@ The NCF model is designed to learn from implicit feedback and consists of two ma
 - **Multi-Layer Perceptron (MLP)**: Processes the feature vectors to capture more complex user-item interactions.
 
 
-## Evaluation Metrics
+Absolutely, let's make those updates to the Results section:
 
-The model's effectiveness is evaluated based on:
-
-- **Root Mean Square Error (RMSE)**: RMSE is used to measure the discrepancies between the predicted and actual playtime (scaled). It serves as a primary metric during model training. After 20 epochs, the model achieved an RMSE of approximately \(0.014\), indicating a high level of accuracy in predicting user-item interactions.
-- **Precision@K**: Measures the relevance of items in the top-K recommendations, giving an idea of the model's accuracy in a practical, user-facing scenario.
-- **Recall@K**: Determines how many of the relevant items are captured in the top-K recommendations, indicating the model's ability to provide a comprehensive list of suggestions.
-
-By leveraging these metrics, we can gauge the model's performance not just in a training and validation environment, but also in terms of its practical applicability and completeness in real-world scenarios.
+---
 
 ## Results
 
-To be updated upon model evaluation and sample recommendations.
+The model demonstrates promising results in recommending personalized games for Steam users. The performance evaluation metrics and the learning curves substantiate the model's effectiveness.
+
+### Evaluation Metrics
+
+- **RMSE**: The model reached an RMSE score of 0.013998393771264486 after 20 epochs, indicating a high degree of accuracy in predicting user-item interactions based on playtime.
+  
+- **Precision@K and Recall@K**: These metrics further validate the model's capacity to offer accurate and comprehensive game recommendations to the users.
+
+### Learning Curves
+
+Below are the learning curves that depict the model's performance over the training epochs:
+
+- **Validation Curve**
+
+  ![Validation Curve]([link_to_validation_curve_image](https://github.com/parkermoe/steam_recommendation_system/blob/main/W%26B%20Chart%2010_5_2023%2C%203_48_52%20PM_loss.png))
+
+- **RMSE Curve**
+
+  ![RMSE Curve]([link_to_rmse_curve_image](https://github.com/parkermoe/steam_recommendation_system/blob/main/W%26B%20Chart%20RMSE%20Loss.png))
+
+### Live Demo
+
+Experience the model's recommendation capabilities firsthand by trying it out on [HuggingFace Spaces](https://huggingface.co/spaces/DimensionDweller/Steam_recsys).
+
+
 
 ## Future Work and Conclusion
 
