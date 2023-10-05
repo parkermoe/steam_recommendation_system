@@ -117,15 +117,15 @@ Below are the learning curves that depict the model's performance over the train
 
 - **Validation Curve**
 
-  ![Validation Curve]([link_to_validation_curve_image](https://github.com/parkermoe/steam_recommendation_system/blob/main/W%26B%20Chart%2010_5_2023%2C%203_48_52%20PM_loss.png))
+  ![Validation Curve]((https://github.com/parkermoe/steam_recommendation_system/blob/main/W%26B%20Chart%2010_5_2023%2C%203_48_52%20PM_loss.png))
 
 - **RMSE Curve**
 
-  ![RMSE Curve]([link_to_rmse_curve_image](https://github.com/parkermoe/steam_recommendation_system/blob/main/W%26B%20Chart%20RMSE%20Loss.png))
+  ![RMSE Curve]((https://github.com/parkermoe/steam_recommendation_system/blob/main/W%26B%20Chart%20RMSE%20Loss.png))
 
 ### Live Demo
 
-Experience the model's recommendation capabilities firsthand by trying it out on [HuggingFace Spaces](https://huggingface.co/spaces/DimensionDweller/Steam_recsys).
+You can also experience the model's recommendation capabilities firsthand by trying it out on [HuggingFace Spaces](https://huggingface.co/spaces/DimensionDweller/Steam_recsys).
 
 
 
