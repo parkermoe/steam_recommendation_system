@@ -97,10 +97,6 @@ The NCF model is designed to learn from implicit feedback and consists of two ma
 - **Multi-Layer Perceptron (MLP)**: Processes the feature vectors to capture more complex user-item interactions.
 
 
-Absolutely, let's make those updates to the Results section:
-
----
-
 ## Results
 
 The model demonstrates promising results in recommending personalized games for Steam users. The performance evaluation metrics and the learning curves substantiate the model's effectiveness.
@@ -117,11 +113,11 @@ Below are the learning curves that depict the model's performance over the train
 
 - **Validation Curve**
 
-  ![Validation Curve]((https://github.com/parkermoe/steam_recommendation_system/blob/main/W%26B%20Chart%2010_5_2023%2C%203_48_52%20PM_loss.png))
+  ![Validation Curve](https://github.com/parkermoe/steam_recommendation_system/blob/main/W%26B%20Chart%2010_5_2023%2C%203_48_52%20PM_loss.png)
 
 - **RMSE Curve**
 
-  ![RMSE Curve]((https://github.com/parkermoe/steam_recommendation_system/blob/main/W%26B%20Chart%20RMSE%20Loss.png))
+  ![RMSE Curve](https://github.com/parkermoe/steam_recommendation_system/blob/main/W%26B%20Chart%20RMSE%20Loss.png)
 
 ### Live Demo
 
